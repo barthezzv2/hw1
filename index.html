@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Image Classifier (HW1)</title>
+    <link rel='stylesheet' type='text/css' href='statics/index.css'>
+    <!-- Load the latest version of TensorFlow.js -->
+    <script src='https://unpkg.com/@tensorflow/tfjs'></script>
+    <script src='https://unpkg.com/@tensorflow-models/mobilenet'></script>
+  </head>
+  <body>
+    <h1>Image Classifier (HW1)</h1>
+    <h2>I apologise for how bad this page looks, I pretty much have 0 skills when it comes to design.<h2>
+    <input type='file' id='upload' accept='image/*' onchange='openFile(event); app(event)'><br>    
+    <pre id='pred'></pre>
+    <img id='output' src='images/ranton.png'>        
+    <script src='js/index.js'></script>
+  </body>
+</html>
